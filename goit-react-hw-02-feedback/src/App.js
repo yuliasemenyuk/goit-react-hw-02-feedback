@@ -1,10 +1,10 @@
 import React from 'react';
-import Statistics from './components/Statistics/Statistics';
+import Feedback from './components/Feedback';
 
-const App = () => 
-<>
-<Statistics />
-</>
-    
+const App = () => (
+    <div>
+        <Feedback />
+    </div>
+);
 
 export default App;
